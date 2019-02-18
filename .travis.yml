@@ -1,0 +1,12 @@
+language: php
+dist: xenial
+php:
+  - '7.2'
+before_script:
+  - composer install --no-interaction
+
+script:
+  - phpunit --configuration phpunit.xml
+  - vendor/bin/phpcs  --standard=PSR2  src/
+  - vendor/bin/phpmd src/ text  cleancode,codesize,controversial,design,naming,unusedcode
+  - vendor/bin/phpcpd --ansi --quiet src/
