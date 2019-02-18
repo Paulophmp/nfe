@@ -14,5 +14,10 @@ class ExampleController extends Controller
         //
     }
 
+    public function check()
+    {
+        echo 'teste';
+    }
+
     //
 }
