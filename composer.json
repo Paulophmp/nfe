@@ -11,8 +11,11 @@
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "~1.0",
+        "phpmd/phpmd": "@stable",
         "phpunit/phpunit": "~7.0",
-        "mockery/mockery": "~1.0"
+        "sebastian/phpcpd": "^4.1",
+        "squizlabs/php_codesniffer": "3.*"
     },
     "autoload": {
         "classmap": [
