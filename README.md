@@ -19,5 +19,5 @@ Para parar o container basta digitar:
 ## Tecnologias
 * [Docker](https://www.docker.com/)
 * [PHP 7.x](http://php.net/)
-* [Zend Framework 1](https://framework.zend.com/manual/1.12/en/learning.quickstart.html) 
+* [Lumen 5.8](https://lumen.laravel.com/) 
 * [Composer](https://getcomposer.org/)
