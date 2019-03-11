@@ -8,7 +8,7 @@
         "php": ">=7.1.3",
         "laravel/lumen-framework": "5.8.*",
         "nfephp-org/sped-nfe": "^5.0",
-        "vlucas/phpdotenv": "^3.x"
+        "vlucas/phpdotenv": "3.x"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
